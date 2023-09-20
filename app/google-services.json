@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "18382742917",
+    "project_id": "justmark-38096",
+    "storage_bucket": "justmark-38096.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18382742917:android:6cada4be56f49131f9d0ec",
+        "android_client_info": {
+          "package_name": "com.example.justmark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18382742917-i91v73o596m0vn328b57rp5i2qua0cal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe2337wDWEASRK9TtfGsjCczU-r_XBQBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18382742917-i91v73o596m0vn328b57rp5i2qua0cal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JustMark"
+        tools:targetApi="31">
+        <activity
+            android:name=".Faculty.ViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Student.LookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Faculty.AttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Student.MarkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Faculty.FacultyHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".Faculty.FacultyChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin.AdminHomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Student.StudentSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Faculty.FacultySignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Faculty.FacultyLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminLoginActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
